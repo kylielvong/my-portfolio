@@ -1,1 +1,43 @@
+What is Git?
+Git is a version control system. That means it keeps track of changes you make to files over time. Instead of saving multiple copies like “portfolio_v2” or “final_final_reallyfinal,” Git records every change in a timeline called commits.
+This lets you:
+1. Go back to older versions
+2. See what changed and when
+3. Work safely without losing progress
+4. Create branches to test new ideas
 
+Git runs through the command line, and you use short commands to save and upload your work.
+
+What is GitHub?
+GitHub is a website that stores Git repositories online.
+It acts like:
+1. A backup of your work
+2. A place to share your projects
+3. A way to publish websites
+4. A portfolio host for employers
+
+GitHub and Git work together:
+Git tracks your changes, and GitHub stores them online.
+
+<h2>How I Uploaded My Portfolio Using Git</h2>
+<p>I uploaded my portfolio site to GitHub using Git commands. Here’s the process I followed:</p>
+<ol>
+  <li>I opened Command Prompt and navigated to my portfolio folder using <code>cd "C:\Users\kylie\OneDrive\Music\Documents\html\site"</code>.</li>
+  <li>I turned my folder into a Git repository with <code>git init</code>.</li>
+  <li>I added all my files using <code>git add --all</code>.</li>
+  <li>I saved my first commit with <code>git commit -m "Initial portfolio upload"</code>.</li>
+  <li>I created a new GitHub repository called <strong>my-portfolio</strong>.</li>
+  <li>I connected my local folder to GitHub using <code>git remote add origin https://github.com/kylielvong/my-portfolio.git</code>.</li>
+  <li>I pushed my portfolio online with <code>git branch -M main</code> and <code>git push -u origin main</code>.</li>
+</ol>
+
+<h2>Branches I Used</h2>
+<p>For this upload, I used the <strong>main</strong> branch only. If I need to test new features later, I can create a branch like <code>git checkout -b new-feature</code> to experiment safely.</p>
+
+<h2>GitHub Repository</h2>
+<p><a href="https://github.com/kylielvong/my-portfolio" target="_blank">View my portfolio repository on GitHub</a></p>
+
+<h2>Screenshots</h2>
+<p>Here are screenshots showing the commands I used and my GitHub repository:</p>
+<img src="img/git-screenshot1.png" alt="Screenshot of Git commands">
+<img src="img/git-screenshot2.png" alt="Screenshot of GitHub repository">
