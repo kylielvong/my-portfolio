@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>kluong.butlerccwebdev.net/index.html</loc>
+    <image:image>
+      <image:loc>kluong.butlerccwebdev.net/banner.png</image:loc>
+      <image:title>Kylie Luong portfolio banner</image:title>
+      <image:caption>Software developer student and digital media graduate portfolio banner</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>kluong.butlerccwebdev.net/motion/index.html</loc>
+    <image:image>
+      <image:loc>kluong.butlerccwebdev.net/motion/gallery1.jpg</image:loc>
+      <image:title>Wichita Riverflix Nights event photo</image:title>
+    </image:image>
+  </url>
+</urlset>

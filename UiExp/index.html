@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>🌿 Green Haven Retreat - Book Your Stay</title>
+ <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+ <link rel="stylesheet" href="mystyles.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+ <header>
+   <div class="logo">
+     <span class="logo-icon">🌿</span>
+     <span class="logo-text">Green Haven Retreat</span>
+   </div>
+   <p class="tagline">Reconnect with nature, restore your soul</p>
+ </header>
+
+ <main>
+   <section class="hero">
+     <h1>Your Eco-Friendly Getaway Awaits</h1>
+     <div class="hero-content">
+       <div class="hero-text">
+         <p>Nestled in the heart of a lush forest, Green Haven Retreat offers a sanctuary from the chaos of modern life. Our sustainable cabins, organic farm-to-table dining, and guided nature experiences will leave you feeling refreshed and renewed.</p>
+         <p>Every detail of your stay is designed with the environment in mind — from solar-powered accommodations to locally sourced materials. We believe that luxury and sustainability can go hand in hand.</p>
+         <p>Whether you're seeking a romantic weekend, a family adventure, or a solo wellness retreat, Green Haven is your perfect escape. Book your dates below and start your journey toward tranquility.</p>
+       </div>
+       <div class="hero-graphic">
+         <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop" alt="Lush green forest with sunlight filtering through trees" class="travel-graphic">
+       </div>
+     </div>
+   </section>
+
+   <section class="booking-section">
+     <h2>📅 Book Your Stay</h2>
+     <div class="booking-card">
+       <div class="form-row">
+         <div class="datepicker-container">
+           <label for="datepicker">Arrival date:</label>
+           <input type="text" id="datepicker" placeholder="Choose your arrival date">
+         </div>
+
+         <div class="control-group">
+           <label for="spinner">Number of guests:</label>
+           <input id="spinner" value="2">
+         </div>
+       </div>
+
+       <div class="control-group accommodation-group">
+         <label>Choose your accommodation:</label>
+         <div id="accordion">
+           <h3>🌲 Forest Cabin</h3>
+           <div>
+             <p>Cozy wooden cabin with private deck, fireplace, and forest views. Includes complimentary breakfast basket. <br><strong>Starting from $159/night</strong></p>
+           </div>
+           <h3>🌿 Treehouse Suite</h3>
+           <div>
+             <p>Elevated among the canopy — glass walls, outdoor shower, and a hammock for two. Truly magical. <br><strong>Starting from $249/night</strong></p>
+           </div>
+           <h3>🌻 Garden Cottage</h3>
+           <div>
+             <p>Surrounded by organic gardens, this charming cottage features a private patio and farm-to-table dining experience. <br><strong>Starting from $199/night</strong></p>
+           </div>
+         </div>
+       </div>
+
+       <button class="book-btn" onclick="alert('Your stay has been tentatively booked! We will confirm via email. 🌿')">Check Availability</button>
+     </div>
+   </section>
+ </main>
+
+ <footer>
+   <p>🌿 Green Haven Retreat | 123 Forest Lane, Evergreen Valley | (555) 123-4567</p>
+   <p class="footer-small">Copyright &copy;2026 Kylie Luong. All rights reserved.</p>
+ </footer>
+
+ <script>
+   $(function() {
+     $("#datepicker").datepicker({
+       minDate: 0,
+       dateFormat: "DD, MM d, yy",
+       showAnim: "fadeIn",
+       showOtherMonths: true,
+       selectOtherMonths: true
+     });
+
+     $("#spinner").spinner({
+       min: 1,
+       max: 20,
+       step: 1
+     });
+
+     $("#accordion").accordion({
+       collapsible: true,
+       active: false,
+       heightStyle: "content"
+     });
+   });
+ </script>
+</body>
+</html>

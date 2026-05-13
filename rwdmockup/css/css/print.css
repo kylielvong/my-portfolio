@@ -1,0 +1,23 @@
+@page {
+    margin: 1in;
+}
+
+.breadcrumb,
+.hero,
+.hide‑under‑500,
+img { display: none !important; }
+
+body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 10pt;
+}
+
+.grid-container {
+    display: block;
+}
+.style {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
