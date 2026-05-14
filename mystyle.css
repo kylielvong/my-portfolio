@@ -54,16 +54,12 @@ h1 {
 }
 
 header {
-    position: relative;
-    text-align: center;
-    height: 200px;  
+    height: 400px;
     background-image: url('redandblackbg.jpg');
-    background-size: cover;     
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
     border-radius: 4rem;
-    margin-bottom: 20px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 /*header h1 {
